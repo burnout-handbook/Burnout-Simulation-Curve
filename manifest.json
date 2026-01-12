@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "locale": "Chinese (Simplified)_China.936",
+  "metadata": {
+    "appmode": "python-shiny",
+    "entrypoint": "app"
+  },
+  "python": {
+    "version": "3.13.0",
+    "package_manager": {
+      "name": "pip",
+      "version": "25.2",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "71a2d0eecb41b164f59312e20f0e6eb5"
+    },
+    "app.py": {
+      "checksum": "0e6c2eb529ddc0f3b83aebb4f62f66f2"
+    },
+    "fonts/simhei.ttf": {
+      "checksum": "1054d571c8a003c497366a95c11b5760"
+    }
+  }
+}
