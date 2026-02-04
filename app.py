@@ -8,7 +8,7 @@ import matplotlib.font_manager as fm
 lang_dict = {
     "zh": {
         "page_title": "学习动机/厌学关键期模拟计算",
-        "language_select": "请选择语言 / Select Language",
+        "language_select": "请选择语言 / Pls Select Language",
         "classes_question_num": "1.",
         "classes_question_text": "您个人/班级每周的平均学习课时有多少？（包括自习课；一课时=40/45分钟）",
         "classes_hint": "提示：请输入0-100之间的整数，超过100将自动按100处理",
