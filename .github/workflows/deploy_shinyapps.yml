@@ -39,5 +39,4 @@ jobs:
           rsconnect deploy shiny . \
             --account "${SHINYAPPS_ACCOUNT}" \
             --server "shinyapps.io" \
-            --app-name "motivation" \
             --title "motivation"
