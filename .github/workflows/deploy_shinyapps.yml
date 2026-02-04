@@ -40,3 +40,6 @@ jobs:
             --account "${SHINYAPPS_ACCOUNT}" \
             --server "shinyapps.io" \
             --title "motivation"
+            --cache \
+            --assume-yes \
+            --force
