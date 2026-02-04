@@ -27,4 +27,4 @@ jobs:
           SHINYAPPS_TOKEN: ${{ secrets.SHINYAPPS_TOKEN }}
           SHINYAPPS_SECRET: ${{ secrets.SHINYAPPS_SECRET }}
         run: |
-          rsconnect deploy shiny . --name motivation --title motivation
+          rsconnect deploy shiny . --app-name motivation --title motivation
