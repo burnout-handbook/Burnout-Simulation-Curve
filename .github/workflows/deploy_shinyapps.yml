@@ -39,7 +39,7 @@ jobs:
           rsconnect deploy shiny . \
             --account "${SHINYAPPS_ACCOUNT}" \
             --server "shinyapps.io" \
-            --title "motivation"
+            --title "motivation" \
             --cache \
             --assume-yes \
             --force
