@@ -55,7 +55,7 @@ lang_dict = {
         "page_title": "*Academic motivation/Burnout* Critical Week Computation",
         "language_select": "Pls Select Language / 选择语言",
         "classes_question_num": "1.",
-        "classes_question_text": "What is your weekly study hours in term of class hours (including self-study, homework; 1 class hour = 40/45 minutes)?",
+        "classes_question_text": "What is your/your group's weekly study hours in term of class hours (including self-study, homework; 1 class hour = 40/45 minutes)?",
         "classes_hint": "Hint: Please enter an integer between 0-100; values over 100 will be treated as 100",
         "gender_question_num": "2.",
         "gender_question_text": "Pls select the gender?",
