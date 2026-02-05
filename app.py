@@ -7,7 +7,7 @@ import matplotlib.font_manager as fm
 # 中英双语词典
 lang_dict = {
     "zh": {
-        "page_title": "学习动机/厌学关键期模拟计算",
+        "page_title": "*学习动机/厌学*关键期模拟计算",
         "language_select": "请选择语言 / Pls Select Language",
         "classes_question_num": "1.",
         "classes_question_text": "您个人/班级每周的平均学习课时有多少？（包括自习课；一课时=40/45分钟）",
@@ -52,7 +52,7 @@ lang_dict = {
         "gender_text_other": "整体"
     },
     "en": {
-        "page_title": "Academic motivation/School Burnout Critical Week Simulation",
+        "page_title": "*Academic motivation/Burnout* Critical Week Computation",
         "language_select": "Pls Select Language / 选择语言",
         "classes_question_num": "1.",
         "classes_question_text": "What is your average weekly study hours (including self-study; 1 class hour = 40/45 minutes)?",
