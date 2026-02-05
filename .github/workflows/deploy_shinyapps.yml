@@ -40,3 +40,4 @@ jobs:
             --account "${SHINYAPPS_ACCOUNT}" \
             --server "shinyapps.io" \
             --title "motivation" \
+            --overwrite
