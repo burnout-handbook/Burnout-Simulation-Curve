@@ -39,5 +39,5 @@ jobs:
           rsconnect deploy shiny . \
             --account "${SHINYAPPS_ACCOUNT}" \
             --server "shinyapps.io" \
+            --app-id 16598272 \
             --title "motivation" \
-            --overwrite
