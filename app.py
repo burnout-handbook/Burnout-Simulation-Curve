@@ -7,7 +7,7 @@ import matplotlib.font_manager as fm
 # 中英双语词典
 lang_dict = {
     "zh": {
-        "page_title": "*学习动机/厌学*关键期模拟计算",
+        "page_title": "*学习动机/厌学*关键期计算模拟",
         "language_select": "请选择语言 / Pls Select Language",
         "classes_question_num": "1.",
         "classes_question_text": "您个人/班级每周的平均学习课时有多少？（包括自习课；一课时=40/45分钟）",
