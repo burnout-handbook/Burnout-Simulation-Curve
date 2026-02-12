@@ -32,10 +32,12 @@ lang_dict = {
         "motivation_formula_title": "平均分计算公式：",
         "motivation_formula": "初始动机值 = （问题1得分 + 问题2得分 + 问题3得分） ÷ 3",
         "motivation_example": "例如：若3道题得分分别为3分、4分、3分，则初始动机值 = （3+4+3）÷3 ≈ 3.3分",
+        "question_source_title": "问题来源参考文献：",
+        "question_source": "问题出处:Teuber, Z., Tang, X., Salmela-Aro, K., & Wild, E. (2021). Assessing engagement in Chinese upper secondary school students using the Chinese version of the schoolwork engagement inventory: energy, dedication, and absorption (CEDA). Frontiers in Psychology, 12, 638189.",
         "submit_btn": "计算评价结果",
         "reset_btn": "重新评价",
         "complete_all_hint": "请完成所有问题后再提交",
-        "motivation_input_hint": "请根据以下参考问题和计算方法，输入您的初始学习动机值/n 问题出处Teuber, Z., Tang, X., Salmela-Aro, K., & Wild, E. (2021). Assessing engagement in Chinese upper secondary school students using the Chinese version of the schoolwork engagement inventory: energy, dedication, and absorption (CEDA). Frontiers in Psychology, 12, 638189.",
+        "motivation_input_hint": "请根据以下参考问题和计算方法，输入您的初始学习动机值",
         "result_title": "您的评价结果",
         "motivation_start_point": "动机起始点: ",
         "chart_title": "学习动机趋势预测",
@@ -77,10 +79,12 @@ lang_dict = {
         "motivation_formula_title": "Average Score Calculation Formula:",
         "motivation_formula": "Initial Motivation = (Score of Q1 + Score of Q2 + Score of Q3) ÷ 3",
         "motivation_example": "Example: If scores are 3, 4, 3, then Initial Motivation = (3+4+3) ÷3 ≈ 3.3 points",
+        "question_source": "Source of the questions:Teuber, Z., Tang, X., Salmela-Aro, K., & Wild, E. (2021). Assessing engagement in Chinese upper secondary school students using the Chinese version of the schoolwork engagement inventory: energy, dedication, and absorption (CEDA). Frontiers in Psychology, 12, 638189.",
+        "question_source_title": "References for the source of the questions:",
         "submit_btn": "Calculate Evaluation Result",
         "reset_btn": "Re-evaluate",
         "complete_all_hint": "Please complete all questions before submitting",
-        "motivation_input_hint": "Please enter your initial learning motivation based on the reference questions and calculation method below /n REF of Questions: Teuber, Z., Tang, X., Salmela-Aro, K., & Wild, E. (2021). Assessing engagement in Chinese upper secondary school students using the Chinese version of the schoolwork engagement inventory: energy, dedication, and absorption (CEDA). Frontiers in Psychology, 12, 638189.",
+        "motivation_input_hint": "Please enter your initial learning motivation based on the reference questions and calculation method below",
         "result_title": "Your Evaluation Result",
         "motivation_start_point": "Motivation Starting Point: ",
         "chart_title": "Learning Motivation Trend Prediction",
@@ -209,6 +213,11 @@ def motivation_input_block(lang):
                      style="margin: 0 0 0 15px; padding: 10px; background-color: #f0f7ff; border-left: 3px solid #3498db;"),
                 ui.p(lang_dict[lang]["motivation_example"], 
                      style="margin: 8px 0 0 15px; font-style: italic;")
+            ),
+            ui.div(
+                ui.p(lang_dict[lang]["question_source_title"], style="font-weight: bold; margin: 15px 0 10px 0;"),
+                ui.p(lang_dict[lang]["question_source"], 
+                     style="margin: 8px 0 0 15px; font-style: italic;font-weight: bold; font-family: 'SimHei', sans-serif;")
             ),
             
             style="padding: 15px; background-color: #f8f9fa; border-radius: 8px; margin-top: 10px; font-size: 14px; color: #555; border: 1px solid #e9ecef;"
